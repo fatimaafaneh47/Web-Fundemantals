@@ -1,0 +1,39 @@
+/* * {
+    border: 1px solid red;
+} */
+.nav{
+    background-color:rgb(94, 91, 91);
+    
+    color:white;
+    width: 1500px;
+    height: 90px;
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+}
+h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+   
+}
+.nav-links{
+    width: 500px;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    padding: 20px;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+.btn{
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #000000;
+    background-color: rgb(116, 212, 244);
+}
