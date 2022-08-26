@@ -1,50 +1,95 @@
 
 .nav{
-    
-    background-color: rgb(79, 123, 145);
-
+    background-color:rgb(15, 14, 14);
+    color:white;
+    width: 100%;
+    height: 100px;
     display: flex;
-    height: 120px;
-    width: 700px;
+    justify-content:space-around;
+    align-items:center;
     
+    /* border: 1px dotted red;     */
+}
+h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
    
 }
+.nav-links{
+    width:600px;
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    left:-350px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+.btn{
+    
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #000000;
+    background-color: rgb(116, 212, 244);
+    color: white;
+    position: relative;
+    right:-320px;
+    font-family:'Times New Roman', Times, serif;
+}
+.one{
+    border: 1px solid gray;
+    width:400px; 
+    height:300px; 
+    position:relative; 
+    top:18px; 
+    left:200px; 
+    
+
+}
+
+.nav1{
+    background-color: rgb(79, 123, 145);
+    display: flex;
+    height: 101px;
+    width: 401px;
+}
 .profile{
-    height: 100px;
+    height: 70px;
     position:absolute;
     left:40px ;
     top: 65px;
     border: 5px solid rgb(252, 248, 248);
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 .white{
     height:60px;
-    
- 
 }
 .map{
     height: 20px;
     position: relative;
-    top: 45px;
-    right: 1px;
+    top: 35px;
+    right: 3px;
     left: 1px;
-
 }
-h1{
-    font-size: 40px;
+h2{
+    font-size: 20px;
     position: absolute;
-    left:50px; top:175px;
+    left:40px; top:130px;
     font-family: Arial, Helvetica, sans-serif;
-
-   
 }
 .gear{
     height: 20px;
     position: relative;
-    top: 5px;
+    top: -3px;
     right: 5px;
-    
 }
 .a{
     font-size: 17px
@@ -52,14 +97,254 @@ h1{
 }
 .paragraph{
     position: absolute;
-    top: 220px;
-    left:50px;
+    top: 140px;
+    left:40px;
 }
 p{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .seatle{
     position: relative;
     left:20px;
+    top: -1px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ex1{
+    color: black;
+    position: relative;
+    top:-8px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: white;
+    padding-left: 30px;
+}
+.two{
+    border: 1px solid gray;
+    width: 400px;
+    height: 243px;
+    position:relative; 
+    top: 100px ;
+    left:200px; 
+    
+}
+.down{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 401px;
+    align-items: center;
+    
+}
+.coding{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    bottom: -15px;
+}
+.grey{
+    color:grey ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 15px;
+    bottom: -30px;
+}
+.coding1{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 15px;
+  bottom: -40px;
+  font-size:20px ;
+}
+.three{
+    border: 1px solid grey;
+    width: 210px;
+    height: 200px;
+    position:relative; 
+    bottom:525px ;
+    left:700px; 
+}
+h4{
+    font-size: 17px;
+    position: relative;
+    left: 30px;
+    color: white;
+    bottom: -10px;
+
+}
+.next{
+    border: 1px solid gray;
+    background-color: black;
+    height:85px;
+}
+.user1{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: 19px;
+    left:5px;
+}
+.user2{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    left:-50px;
+}
+.todd{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -30px;
+    left:55px ;
+}
+.true{
+    width:25px;
+    height: 25px;
+    position: relative;
+    top: -75px;
+    left:150px;
+}
+.false{
+    width:25px;
+    height: 25px;
+    position: relative;
+    top: -75px;
+    left:150px;
+}
+.phil{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -68px;
+    left:55px ;
+}
+.true1{
+    width:25px;
+    height: 25px;
+    position: relative;
+    top: -110px;
+    left:150px;
+}
+.false1{
+    width:25px;
+    height: 25px;
+    position: relative;
+    top: -110px;
+    left:150px;
+
+}
+.four{
+    border: 1px solid grey;
+    width: 210px;
+    height: 320px;
+    position:relative; 
+    bottom: 50px ;
+    left:-1px; 
+}
+h5{
+    font-size: 17px;
+    position: relative;
+    left: 44px;
+    color: white;
+    bottom: 3px;
+}
+.five{
+    border: 1px solid gray;
+    background-color: black;
+    height: 75px;
+    
+}
+.user3{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: 200px;
+    left:5px;
+}
+.user4{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left:5px;
+}
+.anne{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left:55px ;  
+}
+.user5{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    left:5px;
+}
+.alayne{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 50px;
+    left:55px ; 
+}
+.user6{
+    width:35px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left:5px; 
+}
+.arry{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -1px;
+    left:55px ; 
+}
+.names{
+    border-bottom: 2px solid gray;
+    position: relative;
+    top:-190px ;
+}
+.view{
+    color: rgb(57, 89, 105);
+    position: relative;
+    bottom: -35px;
+    left:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+
+
+}
+.adrien{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 150px;
+    left:55px ;
+}
+.logo{
+    width:17px;
+    height: 16px;
+    position: relative;
+    top: -30px;
+    left:5px;
+    border-radius: 50%;
+}
+.logo2{
+    width:27px;
+    height: 25px;
+    position: relative;
+    top: -52px;
+    left:7px;
+    border-radius: 50%;
 }
