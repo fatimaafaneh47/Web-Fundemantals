@@ -75,8 +75,8 @@
     background-color: #FFD966;
     box-shadow: 3px 3px 3px 3px black;
     position: relative;
-    top: 40px;
-    right: 80px;
+    bottom: 20px;
+    right: 1px;
 }
 
 .rightend {
@@ -108,7 +108,7 @@
    background-color: #93C47D;
    box-shadow: 3px 3px 3px 3px black;
    position: relative;
-   left:60px;
+   left:80px;
    top: 30px;
 
 }
