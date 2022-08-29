@@ -40,7 +40,7 @@
 .leftmiddle {
     text-align: left;
     position: relative;
-    bottom: 110px;
+    bottom: 130px;
     left: 270px;
     width: 130px;
     height: 100px;
@@ -67,8 +67,13 @@
     padding-left: 20px;
     font-size: 27px;
     bottom: 20px;
-
-
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h6{
+    position: relative;
+    bottom:13px;
 }
 
 .button3 {
@@ -86,7 +91,7 @@
     position: relative;
     text-align: left;
     left: 290px;
-    bottom: 150px;
+    bottom: 185px;
     font-size: 16px;
 }
 
@@ -94,6 +99,7 @@
     font-size: 15px;
     position: relative;
     bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .side{
@@ -108,8 +114,10 @@
    background-color: #93C47D;
    box-shadow: 3px 3px 3px 3px black;
    position: relative;
-   left:80px;
-   top: 30px;
+   left:50px;
+   top: 20px;
+   width: 150px;
+   height:35px;
 
 }
 .text2{
