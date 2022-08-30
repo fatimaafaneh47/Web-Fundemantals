@@ -1,0 +1,163 @@
+.header{
+    background-color: black;
+   
+    width: 750px;
+    height: 80px;
+    color: white;
+    position: relative;
+    bottom: 24px;
+    left: 410px; 
+}
+h1{
+    position: relative;
+    top:20px;
+    padding-left: 20px;
+}
+.address{
+    width:200px;
+    height:70px;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left:600px;
+    bottom:40px;
+}
+.right{
+    border: 2px solid black;
+    width:500px;
+    height:150px;
+    position: relative;
+    left:650px;
+    bottom:50px;
+    font-size: 16px;
+    padding-left: 8px;
+
+    
+}
+.btn1{
+ background-color: #FFD966;
+ width:50px;
+ height:30px;
+ box-shadow: 3px 2px 2px 2px black;
+ position: relative;
+ bottom: 70px;
+ left:400px;
+}
+.numbers{
+ position: relative;
+ bottom: 30px;
+ left:300px;
+}
+.article{
+    position: relative;
+    bottom: 40px;
+    left:20px;
+}
+h3{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 22px;
+}
+.secondRight{
+    border: 2px solid black;
+    width:510px;
+    height:150px;
+    position: relative;
+    bottom: 30px;
+    left:650px;
+}
+.thirdRight{
+    border: 2px solid black;
+    width:510px;
+    height:150px;
+    position: relative;
+    bottom: 7px;
+    left:650px;
+    
+}
+.btn2{
+    background-color: #FFD966;
+    width:50px;
+    height:30px;
+    box-shadow: 3px 2px 2px 2px black;   
+    position: relative;
+    left:410px;
+    bottom:90px;
+}
+h4{
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    left:30px;
+}
+.article2{
+    position: relative;
+    bottom:50px;
+    left:30px;
+}
+.numbers1{
+    position: relative;
+    bottom: 50px;
+    left:310px;
+}
+.btn3{
+    background-color: #FFD966;
+    width:50px;
+    height:30px;
+    box-shadow: 3px 2px 2px 2px black; 
+    position:absolute;
+    bottom: 90px;
+    left:420px;
+}
+.article3{
+    position: relative;
+    bottom:70px;
+    left:30px;
+}
+h5{
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+    left:30px;
+}
+.numbers2{
+    position: relative;
+    bottom: 60px;
+    left:310px;
+}
+.leftside{
+    border: 2px solid black;
+    width:210px;
+    height:250px;
+    position: relative;
+    bottom:511px;
+    left: 410px;
+    text-align: center;
+}
+img{
+    width:60px;
+    height: 60px;
+    position: relative;
+    left:40px;
+    top: 40px;
+}
+.href{
+    position: relative;
+    top:80px;
+    right:30px;
+}
+.james{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:85px;
+}
+.article3{
+    position: relative;
+    bottom:15px;
+}
+h2{
+    position: relative;
+    left:90px;
+}
