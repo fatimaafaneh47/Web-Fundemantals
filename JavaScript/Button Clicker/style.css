@@ -68,12 +68,14 @@
     font-size: 27px;
     bottom: 20px;
 }
-h4{
+
+h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h6{
+
+h6 {
     position: relative;
-    bottom:13px;
+    bottom: 13px;
 }
 
 .button3 {
@@ -102,28 +104,31 @@ h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.side{
+
+.side {
     border: 2px solid black;
-    height: 140px ;
-    width:260px;
+    height: 140px;
+    width: 260px;
     position: relative;
-    bottom:438px;
-    left:850px;
+    bottom: 438px;
+    left: 850px;
 }
-.button4{
-   background-color: #93C47D;
-   box-shadow: 3px 3px 3px 3px black;
-   position: relative;
-   left:50px;
-   top: 20px;
-   width: 150px;
-   height:35px;
+
+.button4 {
+    background-color: #93C47D;
+    box-shadow: 3px 3px 3px 3px black;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 150px;
+    height: 35px;
 
 }
-.text2{
+
+.text2 {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    top:2px;
-    left:20px;
+    top: 2px;
+    left: 20px;
 }
