@@ -1,0 +1,31 @@
+.header{
+    border: 2px solid black;
+    width: 600px;
+    height: 260px;
+    position: relative;
+    left:400px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+button{
+    background-color: #FFD966;
+    box-shadow: 3px 3px 3px 3px black;
+    width:60px;
+    height:30px;
+    position: relative;
+    bottom:70px;
+    left:480px;
+}
+h1{
+    font-size: 26px;
+    position: relative;
+    top:30px;
+    
+}
+#number{
+    position: relative;
+    bottom:20px;
+    left:360px;
+}
