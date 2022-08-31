@@ -1,0 +1,121 @@
+{
+        border: 1px solid red;
+    }
+
+    nav {
+        width: 100%;
+        height: 9%;
+        background-color: #9FC5F8;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    a {
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    header {
+        font-size: 22px;
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+    }
+
+    .border {
+        width: 1000px;
+        height: 2px;
+        background-color: black;
+        position: relative;
+        top: 1px;
+        left: 20%;
+    }
+
+    .section {
+        height: 320px;
+        width: 200px;
+        background-color: #EEEEEE;
+        position: relative;
+        left: 20%;
+        margin-top: 2%;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 20px;
+    }
+
+    .rain {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .numbers{
+        word-spacing: 60px;
+    }
+    .section1{
+        height: 320px;
+        width: 200px;
+        background-color: #EEEEEE;
+        position: relative;
+        left: 37%;
+        bottom:350px;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 20px;
+        
+    }
+    .sun{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .section2{
+        height: 320px;
+        width: 200px;
+        background-color: #EEEEEE;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 20px;
+        position: relative;
+        left: 55%;
+        bottom:700px;
+    }
+    .section3{
+        height: 345px;
+        width: 200px;
+        background-color: #EEEEEE;
+        text-align: center;
+        padding-top: 6px;
+        font-size: 20px;
+        position: relative;
+        left:72%;
+        bottom:1050px;
+    }
+    h5,h6{
+       
+        font-size: 20px;
+    }
+    footer{
+        background-color: #EEEEEE;
+        height: 150px;
+        width: 900px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .cookie{
+        height:40px;
+        width:40px;
+        border-radius: 50%;
+    }
