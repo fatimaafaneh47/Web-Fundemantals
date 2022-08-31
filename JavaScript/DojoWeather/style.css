@@ -1,6 +1,3 @@
-{
-        border: 1px solid red;
-    }
 
     nav {
         width: 100%;
@@ -31,8 +28,8 @@
     header {
         font-size: 22px;
         display: flex;
-        justify-content: space-around;
-        align-items: left;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .border {
@@ -61,9 +58,19 @@
         height: 100px;
         border-radius: 50%;
     }
-    .numbers{
-        word-spacing: 60px;
+    .high{
+        color: #CF2B28;
+        position: relative;
+        right:40px;
+
     }
+    .low{
+        position: relative;
+        left:40px;
+        color:#2B78E4
+        
+    }
+    
     .section1{
         height: 320px;
         width: 200px;
@@ -110,12 +117,56 @@
     footer{
         background-color: #EEEEEE;
         height: 150px;
-        width: 900px;
-        text-align: center;
-        font-size: 12px;
+        width: 980px;
+        text-align: left;
+        font-size: 18px;
+        position: relative;
+        bottom:1050px;
+        left:300px;
+        text-align: left;
+        display: fixed;   
     }
     .cookie{
-        height:40px;
-        width:40px;
+        height:50px;
+        width:50px;
         border-radius: 50%;
+       
+        
     }
+    .read{
+        color: #125996;
+        font-size: 18px;
+    }
+    
+.address{
+    padding-left: 70px;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:40px;
+}
+.address1{
+    padding-left: 50px;
+    position: relative;
+    bottom:30px;
+    left:20px;
+   
+    
+}
+button{
+    background-color: #9FC5F8;
+    box-shadow: 2px 2px 2px 2px black;
+    width:90px;
+    height:40px;
+    position: relative;
+    bottom:140px;
+    left: 750px;
+    
+}
+select{
+    width:40px;
+    height:40px;
+}
+.temperature{
+    position: relative;
+    left:260px;
+}
