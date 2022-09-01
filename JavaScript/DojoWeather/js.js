@@ -11,6 +11,7 @@ function clicking(){
     var cookie = document.querySelector("#warning");
     cookie.remove("#warning");
 }
+
 function c2f(temp) {
     return Math.round(9 / 5 * temp + 32);
 }
