@@ -1,46 +1,39 @@
-const display = document.getElementById("display");
-let num1 = "";
-let num2 = "";
-let op = "";
+
+var number2;
+var operator;
+var currentNumber= "";
 
 
-function press(num) {
-  num1 += num;
-  display.innerHTML = num1;
+function getDisplay(){
+  return document.getElementById("display");
 }
-
-function setOP(key) {
-  op = key;
-  num2 = num1;
-  num1 = "";
+function press(number){
+  currentNumber += parseFloat(number);
+  getDisplay().innerText=currentNumber;
 }
-
-function clr() {
-  num1 = "";
-  num2 = "";
-  op = "";
-  display.innerHTML = "0";
+function setOP(op){
+  operator = op;
+  number2=parseFloat(currentNumber);
+  currentNumber = "";
+  getDisplay().innerText="0";
 }
-
-function calculate() {
-  let a = parseFloat(num2);
-  let b = parseFloat(num1);
-  let res = 0;
-  switch(op) {
-    case "+":
-      res = a + b;
-      break;
-    case "-":
-      res = a - b;
-      break;
-    case "*":
-      res = a * b;
-      break;
-    case "/":
-      res = a / b;
-      break;
+function clr(){
+  getDisplay().innerText="0";
+  currentNumber="";
+  operator= "";
+  number2= ""; 
+}
+  function calculate (){
+    var result;
+  if(operator === "+"){
+    result = number2 + parseFloat(currentNumber);
+  }else if (operator === "-"){
+    result = number2 - parseFloat(currentNumber);
+  }else if(operator === "/"){
+    result = number2 / parseFloat(currentNumber);
+  }else if(operator === "*"){
+    result = number2 * parseFloat(currentNumber);
   }
-  num1 = res;
-  op = "";
-  display.innerHTML = res;
+  getDisplay().innerText= result;
+  
 }
